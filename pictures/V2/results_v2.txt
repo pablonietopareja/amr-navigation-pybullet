@@ -1,0 +1,8 @@
+=== Navigation summary (per target) ===
+Target 1: plan=1.8 ms | path_len=40.00 m | travel=52.49 s | mean_lat_true=0.337 m | max_lat_true=1.249 m
+Target 2: plan=1.4 ms | path_len=20.00 m | travel=24.98 s | mean_lat_true=0.288 m | max_lat_true=0.627 m
+Target 3: plan=1.8 ms | path_len=30.00 m | travel=39.72 s | mean_lat_true=0.110 m | max_lat_true=0.587 m
+======================================
+
+NOTE: 
+Path issue solved, now A* finds the most optimiced solution.

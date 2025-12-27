@@ -1,0 +1,8 @@
+=== Navigation summary (per target) ===
+Target 1: plan=2.4 ms | path_len=71.00 m | travel=96.07 s | mean_lat_true=1.062 m | max_lat_true=2.162 m
+Target 2: plan=2.5 ms | path_len=19.00 m | travel=25.60 s | mean_lat_true=0.147 m | max_lat_true=0.604 m
+Target 3: plan=2.0 ms | path_len=30.00 m | travel=38.97 s | mean_lat_true=0.108 m | max_lat_true=0.735 m
+======================================
+
+NOTE:
+It cannot continue along the lower path because the parameter INFLATION_CELLS = 3 prevents it: it inflates the obstacles so much (thickening the walls) that A* can’t generate a path through that area.

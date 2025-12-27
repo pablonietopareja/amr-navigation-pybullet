@@ -1,0 +1,8 @@
+=== Navigation summary (per target) ===
+Target 1: plan=2.2 ms | path_len=40.00 m | travel=23.00 s | mean_lat_true=0.369 m | max_lat_true=1.485 m
+Target 2: plan=2.0 ms | path_len=21.00 m | travel=13.16 s | mean_lat_true=0.297 m | max_lat_true=0.642 m
+Target 3: plan=1.9 ms | path_len=30.00 m | travel=19.03 s | mean_lat_true=0.094 m | max_lat_true=0.755 m
+======================================
+
+NOTE:
+In this latest version, the code has been refined and commented to clearly explain all procedures and improve readability. Additionally, the safety distance at which the robot stops in front of a worker has been increased; therefore, in the distance-to-goal plot, a short segment can be observed on the second descending slope where the distance remains constant, because the robot stops for a longer period of time.

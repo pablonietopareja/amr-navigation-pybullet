@@ -1,0 +1,16 @@
+=== Navigation summary (per target) ===
+Target 1: plan=1.7 ms | path_len=40.00 m | travel=22.86 s | mean_lat_true=0.370 m | max_lat_true=1.464 m
+Target 2: plan=1.5 ms | path_len=21.00 m | travel=12.65 s | mean_lat_true=0.286 m | max_lat_true=0.641 m
+Target 3: plan=1.5 ms | path_len=30.00 m | travel=18.72 s | mean_lat_true=0.135 m | max_lat_true=0.743 m
+======================================
+
+NOTE:
+In this version, two key improvements were introduced. First, I added two moving spherical objects that represent workers walking on the factory floor. When the robot detects that a worker is too close, it stops and waits until the path is clear, prioritizing safety and preventing any potential collision. Once the worker moves away, the robot resumes its mission and continues toward its assigned goals.
+
+Second, I tuned the navigation parameters to improve both stability and speed:
+
+LOOKAHEAD = 3 (previously 1.8)
+LOG_INTERVAL_SEC = 0.33 (previously 1.0)
+V_MAX_MPS = 1.8 (previously 0.9)
+
+With the previous values, the robot exhibited more oscillation—visible in earlier plots—and moved noticeably slower. The new values were obtained through iterative fine-tuning (trial and error), while staying within the maximum limits imposed by the robot’s wheel size and actuator constraints.

@@ -1,0 +1,8 @@
+=== Navigation summary (per target) ===
+Target 1: plan=1.6 ms | path_len=40.00 m | travel=54.55 s | mean_lat_true=0.366 m | max_lat_true=1.230 m
+Target 2: plan=1.5 ms | path_len=21.00 m | travel=24.90 s | mean_lat_true=0.310 m | max_lat_true=0.642 m
+Target 3: plan=1.6 ms | path_len=30.00 m | travel=40.42 s | mean_lat_true=0.107 m | max_lat_true=0.616 m
+======================================
+
+NOTE:
+In this version, the path visualization was improved by overlaying it directly on the map. It is now clear that the solution chosen by the robot is the shortest one. In addition, the code was modularized to obtain a streamlined main script that calls all the modules the robot needs to run, as shown in class.
