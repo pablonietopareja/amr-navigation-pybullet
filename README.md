@@ -156,7 +156,6 @@ The included plotting scripts convert these logs into trajectory and performance
 │   └── system-architecture.png
 │
 ├── requirements_conda.yml
-├── demo_show.mp4
 └── README.md
 ```
 
@@ -180,7 +179,7 @@ conda env create -f requirements_conda.yml
 ### 3. Activate the environment
 
 ```bash
-conda activate py311
+conda activate amr-navigation-pybullet
 ```
 
 ### 4. Run the simulation
