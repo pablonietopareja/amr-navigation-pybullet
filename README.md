@@ -4,8 +4,6 @@ Autonomous mobile robot simulation combining **A\* path planning**, **particle-f
 
 The project implements an end-to-end navigation pipeline in which the robot plans multi-goal missions, estimates its own pose, follows planned trajectories and reacts to moving workers **without using ground-truth pose for navigation decisions**.
 
-[▶ Watch the simulation demo](demo_show.mp4)
-
 ---
 
 ## Project Overview
